@@ -6,60 +6,934 @@ exports[`Dashboard Screen renders Dashboard screen 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="MuiBox-root css-0"
+        class="MuiBox-root css-7mrwao"
       >
-        <h2
-          class="MuiTypography-root MuiTypography-h2 css-o2za6n-MuiTypography-root"
+        <header
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-ptdwpq-MuiPaper-root-MuiAppBar-root"
+          style="--Paper-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);"
         >
-          Dashboard
-        </h2>
+          <div
+            class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1ygil4i-MuiToolbar-root"
+          >
+            <button
+              aria-label="back"
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-edgeStart MuiIconButton-sizeMedium css-l4e842-MuiButtonBase-root-MuiIconButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                data-testid="ArrowBackIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20z"
+                />
+              </svg>
+            </button>
+            <div
+              class="MuiTypography-root MuiTypography-h5 css-n5sh54-MuiTypography-root"
+            >
+              JustBid
+            </div>
+            <div
+              class="MuiBox-root css-fxwj1n"
+            >
+              <div
+                class="MuiFormControl-root MuiTextField-root css-5iubwc-MuiFormControl-root-MuiTextField-root"
+              >
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall MuiInputBase-adornedEnd css-jupps9-MuiInputBase-root-MuiOutlinedInput-root"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedEnd css-13meb6w-MuiInputBase-input-MuiOutlinedInput-input"
+                    id=":r0:"
+                    placeholder="Search..."
+                    type="text"
+                    value=""
+                  />
+                  <button
+                    class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-aixiz9-MuiButtonBase-root-MuiIconButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                      data-testid="SearchIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14"
+                      />
+                    </svg>
+                  </button>
+                  <fieldset
+                    aria-hidden="true"
+                    class="MuiOutlinedInput-notchedOutline css-1ll44ll-MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      class="css-w4cd9x"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textInherit MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorInherit MuiButton-root MuiButton-text MuiButton-textInherit MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorInherit css-100ek8v-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-icon MuiButton-startIcon MuiButton-iconSizeMedium css-1jsm74t-MuiButton-startIcon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="LogoutIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m17 7-1.41 1.41L18.17 11H8v2h10.17l-2.58 2.58L17 17l5-5zM4 5h8V3H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h8v-2H4z"
+                  />
+                </svg>
+              </span>
+              Logout
+            </button>
+          </div>
+        </header>
         <div
-          class="MuiBox-root css-eaeacs"
+          class="MuiContainer-root MuiContainer-maxWidthLg css-1at4gu9-MuiContainer-root"
         >
-          <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-1b78l0q-MuiButtonBase-root-MuiButton-root"
-            tabindex="0"
-            type="button"
+          <div
+            class="MuiGrid2-root MuiGrid2-direction-xs-row css-1fzlhpv-MuiGrid2-root"
           >
-            Logout
-          </button>
-          <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-1abvrni-MuiButtonBase-root-MuiButton-root"
-            tabindex="0"
-            type="button"
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-sa0xxo-MuiPaper-root"
+              style="--Paper-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12);"
+            >
+              <div
+                class="MuiBox-root css-k008qs"
+              >
+                <h6
+                  class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+                >
+                  Dashboard
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiContainer-root MuiContainer-maxWidthLg css-93s74j-MuiContainer-root"
+        >
+          <div
+            class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row MuiGrid2-spacing-xs-3 css-ipzchf-MuiGrid2-root"
           >
-            Back
-          </button>
+            <div
+              class="MuiGrid2-root MuiGrid2-direction-xs-row css-1fzlhpv-MuiGrid2-root"
+              md="3"
+              xs="12"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-1fdopfm-MuiPaper-root"
+                style="--Paper-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12);"
+              >
+                <h6
+                  class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+                >
+                  Categories
+                </h6>
+                <ul
+                  class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+                >
+                  <div
+                    class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <div
+                      class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+                    >
+                      <span
+                        class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+                      >
+                        Electronics
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <div
+                      class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+                    >
+                      <span
+                        class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+                      >
+                        Furniture
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <div
+                      class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+                    >
+                      <span
+                        class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+                      >
+                        Vehicles
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <div
+                      class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+                    >
+                      <span
+                        class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+                      >
+                        Real Estate
+                      </span>
+                    </div>
+                  </div>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="MuiGrid2-root MuiGrid2-direction-xs-row css-1fzlhpv-MuiGrid2-root"
+              md="9"
+              xs="12"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-1fdopfm-MuiPaper-root"
+                style="--Paper-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12);"
+              >
+                <h6
+                  class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+                >
+                  Bidding Items
+                </h6>
+                <ul
+                  class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+                >
+                  <li
+                    class="MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-divider css-1fthejg-MuiListItem-root"
+                  >
+                    <div
+                      class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row css-15fcp3v-MuiGrid2-root"
+                    >
+                      <div
+                        class="MuiGrid2-root MuiGrid2-direction-xs-row css-1fzlhpv-MuiGrid2-root"
+                        xs="6"
+                      >
+                        <div
+                          class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+                        >
+                          <span
+                            class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+                          >
+                            Laptop
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid2-root MuiGrid2-direction-xs-row css-18m37rw-MuiGrid2-root"
+                        xs="4"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body2 css-1a1whku-MuiTypography-root"
+                        >
+                          Current Bid: 
+                          £500
+                        </p>
+                      </div>
+                      <div
+                        class="MuiGrid2-root MuiGrid2-direction-xs-row css-elklez-MuiGrid2-root"
+                        xs="2"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-colorPrimary css-6wsdc3-MuiButtonBase-root-MuiButton-root"
+                          tabindex="0"
+                          type="button"
+                        >
+                          Bid Now
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-divider css-1fthejg-MuiListItem-root"
+                  >
+                    <div
+                      class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row css-15fcp3v-MuiGrid2-root"
+                    >
+                      <div
+                        class="MuiGrid2-root MuiGrid2-direction-xs-row css-1fzlhpv-MuiGrid2-root"
+                        xs="6"
+                      >
+                        <div
+                          class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+                        >
+                          <span
+                            class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+                          >
+                            Dining Table
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid2-root MuiGrid2-direction-xs-row css-18m37rw-MuiGrid2-root"
+                        xs="4"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body2 css-1a1whku-MuiTypography-root"
+                        >
+                          Current Bid: 
+                          £150
+                        </p>
+                      </div>
+                      <div
+                        class="MuiGrid2-root MuiGrid2-direction-xs-row css-elklez-MuiGrid2-root"
+                        xs="2"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-colorPrimary css-6wsdc3-MuiButtonBase-root-MuiButton-root"
+                          tabindex="0"
+                          type="button"
+                        >
+                          Bid Now
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-divider css-1fthejg-MuiListItem-root"
+                  >
+                    <div
+                      class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row css-15fcp3v-MuiGrid2-root"
+                    >
+                      <div
+                        class="MuiGrid2-root MuiGrid2-direction-xs-row css-1fzlhpv-MuiGrid2-root"
+                        xs="6"
+                      >
+                        <div
+                          class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+                        >
+                          <span
+                            class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+                          >
+                            Phone case
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid2-root MuiGrid2-direction-xs-row css-18m37rw-MuiGrid2-root"
+                        xs="4"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body2 css-1a1whku-MuiTypography-root"
+                        >
+                          Current Bid: 
+                          £8.50
+                        </p>
+                      </div>
+                      <div
+                        class="MuiGrid2-root MuiGrid2-direction-xs-row css-elklez-MuiGrid2-root"
+                        xs="2"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-colorPrimary css-6wsdc3-MuiButtonBase-root-MuiButton-root"
+                          tabindex="0"
+                          type="button"
+                        >
+                          Bid Now
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-divider css-1fthejg-MuiListItem-root"
+                  >
+                    <div
+                      class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row css-15fcp3v-MuiGrid2-root"
+                    >
+                      <div
+                        class="MuiGrid2-root MuiGrid2-direction-xs-row css-1fzlhpv-MuiGrid2-root"
+                        xs="6"
+                      >
+                        <div
+                          class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+                        >
+                          <span
+                            class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+                          >
+                            Hat
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid2-root MuiGrid2-direction-xs-row css-18m37rw-MuiGrid2-root"
+                        xs="4"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body2 css-1a1whku-MuiTypography-root"
+                        >
+                          Current Bid: 
+                          £12.50
+                        </p>
+                      </div>
+                      <div
+                        class="MuiGrid2-root MuiGrid2-direction-xs-row css-elklez-MuiGrid2-root"
+                        xs="2"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-colorPrimary css-6wsdc3-MuiButtonBase-root-MuiButton-root"
+                          tabindex="0"
+                          type="button"
+                        >
+                          Bid Now
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-divider css-1fthejg-MuiListItem-root"
+                  >
+                    <div
+                      class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row css-15fcp3v-MuiGrid2-root"
+                    >
+                      <div
+                        class="MuiGrid2-root MuiGrid2-direction-xs-row css-1fzlhpv-MuiGrid2-root"
+                        xs="6"
+                      >
+                        <div
+                          class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+                        >
+                          <span
+                            class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+                          >
+                            Jacket
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid2-root MuiGrid2-direction-xs-row css-18m37rw-MuiGrid2-root"
+                        xs="4"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body2 css-1a1whku-MuiTypography-root"
+                        >
+                          Current Bid: 
+                          £70
+                        </p>
+                      </div>
+                      <div
+                        class="MuiGrid2-root MuiGrid2-direction-xs-row css-elklez-MuiGrid2-root"
+                        xs="2"
+                      >
+                        <button
+                          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-colorPrimary css-6wsdc3-MuiButtonBase-root-MuiButton-root"
+                          tabindex="0"
+                          type="button"
+                        >
+                          Bid Now
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="MuiBox-root css-0"
+      class="MuiBox-root css-7mrwao"
     >
-      <h2
-        class="MuiTypography-root MuiTypography-h2 css-o2za6n-MuiTypography-root"
+      <header
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-ptdwpq-MuiPaper-root-MuiAppBar-root"
+        style="--Paper-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);"
       >
-        Dashboard
-      </h2>
+        <div
+          class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1ygil4i-MuiToolbar-root"
+        >
+          <button
+            aria-label="back"
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-edgeStart MuiIconButton-sizeMedium css-l4e842-MuiButtonBase-root-MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+              data-testid="ArrowBackIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20z"
+              />
+            </svg>
+          </button>
+          <div
+            class="MuiTypography-root MuiTypography-h5 css-n5sh54-MuiTypography-root"
+          >
+            JustBid
+          </div>
+          <div
+            class="MuiBox-root css-fxwj1n"
+          >
+            <div
+              class="MuiFormControl-root MuiTextField-root css-5iubwc-MuiFormControl-root-MuiTextField-root"
+            >
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall MuiInputBase-adornedEnd css-jupps9-MuiInputBase-root-MuiOutlinedInput-root"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedEnd css-13meb6w-MuiInputBase-input-MuiOutlinedInput-input"
+                  id=":r0:"
+                  placeholder="Search..."
+                  type="text"
+                  value=""
+                />
+                <button
+                  class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-aixiz9-MuiButtonBase-root-MuiIconButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                    data-testid="SearchIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14"
+                    />
+                  </svg>
+                </button>
+                <fieldset
+                  aria-hidden="true"
+                  class="MuiOutlinedInput-notchedOutline css-1ll44ll-MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    class="css-w4cd9x"
+                  >
+                    <span
+                      class="notranslate"
+                    >
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textInherit MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorInherit MuiButton-root MuiButton-text MuiButton-textInherit MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorInherit css-100ek8v-MuiButtonBase-root-MuiButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-icon MuiButton-startIcon MuiButton-iconSizeMedium css-1jsm74t-MuiButton-startIcon"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                data-testid="LogoutIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m17 7-1.41 1.41L18.17 11H8v2h10.17l-2.58 2.58L17 17l5-5zM4 5h8V3H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h8v-2H4z"
+                />
+              </svg>
+            </span>
+            Logout
+          </button>
+        </div>
+      </header>
       <div
-        class="MuiBox-root css-eaeacs"
+        class="MuiContainer-root MuiContainer-maxWidthLg css-1at4gu9-MuiContainer-root"
       >
-        <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-1b78l0q-MuiButtonBase-root-MuiButton-root"
-          tabindex="0"
-          type="button"
+        <div
+          class="MuiGrid2-root MuiGrid2-direction-xs-row css-1fzlhpv-MuiGrid2-root"
         >
-          Logout
-        </button>
-        <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-1abvrni-MuiButtonBase-root-MuiButton-root"
-          tabindex="0"
-          type="button"
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-sa0xxo-MuiPaper-root"
+            style="--Paper-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12);"
+          >
+            <div
+              class="MuiBox-root css-k008qs"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
+              >
+                Dashboard
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg css-93s74j-MuiContainer-root"
+      >
+        <div
+          class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row MuiGrid2-spacing-xs-3 css-ipzchf-MuiGrid2-root"
         >
-          Back
-        </button>
+          <div
+            class="MuiGrid2-root MuiGrid2-direction-xs-row css-1fzlhpv-MuiGrid2-root"
+            md="3"
+            xs="12"
+          >
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-1fdopfm-MuiPaper-root"
+              style="--Paper-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12);"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+              >
+                Categories
+              </h6>
+              <ul
+                class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+              >
+                <div
+                  class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
+                  role="button"
+                  tabindex="0"
+                >
+                  <div
+                    class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+                  >
+                    <span
+                      class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+                    >
+                      Electronics
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
+                  role="button"
+                  tabindex="0"
+                >
+                  <div
+                    class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+                  >
+                    <span
+                      class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+                    >
+                      Furniture
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
+                  role="button"
+                  tabindex="0"
+                >
+                  <div
+                    class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+                  >
+                    <span
+                      class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+                    >
+                      Vehicles
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
+                  role="button"
+                  tabindex="0"
+                >
+                  <div
+                    class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+                  >
+                    <span
+                      class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+                    >
+                      Real Estate
+                    </span>
+                  </div>
+                </div>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="MuiGrid2-root MuiGrid2-direction-xs-row css-1fzlhpv-MuiGrid2-root"
+            md="9"
+            xs="12"
+          >
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-1fdopfm-MuiPaper-root"
+              style="--Paper-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12);"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1wmifpn-MuiTypography-root"
+              >
+                Bidding Items
+              </h6>
+              <ul
+                class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+              >
+                <li
+                  class="MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-divider css-1fthejg-MuiListItem-root"
+                >
+                  <div
+                    class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row css-15fcp3v-MuiGrid2-root"
+                  >
+                    <div
+                      class="MuiGrid2-root MuiGrid2-direction-xs-row css-1fzlhpv-MuiGrid2-root"
+                      xs="6"
+                    >
+                      <div
+                        class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+                      >
+                        <span
+                          class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+                        >
+                          Laptop
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid2-root MuiGrid2-direction-xs-row css-18m37rw-MuiGrid2-root"
+                      xs="4"
+                    >
+                      <p
+                        class="MuiTypography-root MuiTypography-body2 css-1a1whku-MuiTypography-root"
+                      >
+                        Current Bid: 
+                        £500
+                      </p>
+                    </div>
+                    <div
+                      class="MuiGrid2-root MuiGrid2-direction-xs-row css-elklez-MuiGrid2-root"
+                      xs="2"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-colorPrimary css-6wsdc3-MuiButtonBase-root-MuiButton-root"
+                        tabindex="0"
+                        type="button"
+                      >
+                        Bid Now
+                      </button>
+                    </div>
+                  </div>
+                </li>
+                <li
+                  class="MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-divider css-1fthejg-MuiListItem-root"
+                >
+                  <div
+                    class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row css-15fcp3v-MuiGrid2-root"
+                  >
+                    <div
+                      class="MuiGrid2-root MuiGrid2-direction-xs-row css-1fzlhpv-MuiGrid2-root"
+                      xs="6"
+                    >
+                      <div
+                        class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+                      >
+                        <span
+                          class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+                        >
+                          Dining Table
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid2-root MuiGrid2-direction-xs-row css-18m37rw-MuiGrid2-root"
+                      xs="4"
+                    >
+                      <p
+                        class="MuiTypography-root MuiTypography-body2 css-1a1whku-MuiTypography-root"
+                      >
+                        Current Bid: 
+                        £150
+                      </p>
+                    </div>
+                    <div
+                      class="MuiGrid2-root MuiGrid2-direction-xs-row css-elklez-MuiGrid2-root"
+                      xs="2"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-colorPrimary css-6wsdc3-MuiButtonBase-root-MuiButton-root"
+                        tabindex="0"
+                        type="button"
+                      >
+                        Bid Now
+                      </button>
+                    </div>
+                  </div>
+                </li>
+                <li
+                  class="MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-divider css-1fthejg-MuiListItem-root"
+                >
+                  <div
+                    class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row css-15fcp3v-MuiGrid2-root"
+                  >
+                    <div
+                      class="MuiGrid2-root MuiGrid2-direction-xs-row css-1fzlhpv-MuiGrid2-root"
+                      xs="6"
+                    >
+                      <div
+                        class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+                      >
+                        <span
+                          class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+                        >
+                          Phone case
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid2-root MuiGrid2-direction-xs-row css-18m37rw-MuiGrid2-root"
+                      xs="4"
+                    >
+                      <p
+                        class="MuiTypography-root MuiTypography-body2 css-1a1whku-MuiTypography-root"
+                      >
+                        Current Bid: 
+                        £8.50
+                      </p>
+                    </div>
+                    <div
+                      class="MuiGrid2-root MuiGrid2-direction-xs-row css-elklez-MuiGrid2-root"
+                      xs="2"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-colorPrimary css-6wsdc3-MuiButtonBase-root-MuiButton-root"
+                        tabindex="0"
+                        type="button"
+                      >
+                        Bid Now
+                      </button>
+                    </div>
+                  </div>
+                </li>
+                <li
+                  class="MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-divider css-1fthejg-MuiListItem-root"
+                >
+                  <div
+                    class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row css-15fcp3v-MuiGrid2-root"
+                  >
+                    <div
+                      class="MuiGrid2-root MuiGrid2-direction-xs-row css-1fzlhpv-MuiGrid2-root"
+                      xs="6"
+                    >
+                      <div
+                        class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+                      >
+                        <span
+                          class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+                        >
+                          Hat
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid2-root MuiGrid2-direction-xs-row css-18m37rw-MuiGrid2-root"
+                      xs="4"
+                    >
+                      <p
+                        class="MuiTypography-root MuiTypography-body2 css-1a1whku-MuiTypography-root"
+                      >
+                        Current Bid: 
+                        £12.50
+                      </p>
+                    </div>
+                    <div
+                      class="MuiGrid2-root MuiGrid2-direction-xs-row css-elklez-MuiGrid2-root"
+                      xs="2"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-colorPrimary css-6wsdc3-MuiButtonBase-root-MuiButton-root"
+                        tabindex="0"
+                        type="button"
+                      >
+                        Bid Now
+                      </button>
+                    </div>
+                  </div>
+                </li>
+                <li
+                  class="MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-divider css-1fthejg-MuiListItem-root"
+                >
+                  <div
+                    class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row css-15fcp3v-MuiGrid2-root"
+                  >
+                    <div
+                      class="MuiGrid2-root MuiGrid2-direction-xs-row css-1fzlhpv-MuiGrid2-root"
+                      xs="6"
+                    >
+                      <div
+                        class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+                      >
+                        <span
+                          class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+                        >
+                          Jacket
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid2-root MuiGrid2-direction-xs-row css-18m37rw-MuiGrid2-root"
+                      xs="4"
+                    >
+                      <p
+                        class="MuiTypography-root MuiTypography-body2 css-1a1whku-MuiTypography-root"
+                      >
+                        Current Bid: 
+                        £70
+                      </p>
+                    </div>
+                    <div
+                      class="MuiGrid2-root MuiGrid2-direction-xs-row css-elklez-MuiGrid2-root"
+                      xs="2"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-colorPrimary css-6wsdc3-MuiButtonBase-root-MuiButton-root"
+                        tabindex="0"
+                        type="button"
+                      >
+                        Bid Now
+                      </button>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>,
