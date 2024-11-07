@@ -1,13 +1,13 @@
 name: Frontend CI Pipeline
 
-# Triggers the workflow on pushes to the main branch and on pull requests to main
+# Triggers the workflow on pushes to the development branch and on pull requests to development
 on:
   push:
     branches:
-      - main
+      - development
   pull_request:
     branches:
-      - main
+      - development
 
 jobs:
   build-and-test:
