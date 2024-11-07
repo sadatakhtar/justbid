@@ -129,7 +129,7 @@ exports[`Dashboard Screen renders Dashboard screen 1`] = `
                 <h6
                   class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
                 >
-                  Dashboard
+                  Dashboard -Temp
                 </h6>
               </div>
             </div>
@@ -596,7 +596,7 @@ exports[`Dashboard Screen renders Dashboard screen 1`] = `
               <h6
                 class="MuiTypography-root MuiTypography-h6 css-1miy0lu-MuiTypography-root"
               >
-                Dashboard
+                Dashboard -Temp
               </h6>
             </div>
           </div>

@@ -90,7 +90,7 @@ const Dashboard = () => {
         <Grid>
           <Paper elevation={3} sx={{ p: 1, paddingX: 3 }}>
             <Box sx={{ display: "flex" }}>
-              <Typography variant="h6">Dashboard</Typography>
+              <Typography variant="h6">Dashboard -Temp</Typography>
             </Box>
           </Paper>
         </Grid>
